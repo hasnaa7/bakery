@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+}
+.continer{
+  width: 90%;
+  margin:auto;
+ 
+}
+
+.clr {
+  clear: both;
+}
+
+
+li {
+  list-style: none;
+}
+body {
+  font-family: 'Alegreya Sans', sans-serif;
+}
+/******/
+/*  */
+.family_bakery {
+  height: 650px;
+  background-image: url('../img/cover.jpg');
+  background-size: cover;
+  background-position: center;
+  /* background-repeat: no-repeat; */
+  /* background-attachment: fixed; */
+  overflow: hidden;
+}
+
+.family_bakery .family_text {
+  text-align: center;
+  width: 50%;
+  margin: auto;
+  margin-top: 150px;
+   color: #fff;
+}
+
+.family_bakery .family_text p {
+  font-size: 22px;
+  line-height: 1.8;
+}
+
+.family_bakery .family_text h1 {
+  font-size: 76px;
+  margin: 15px 0;
+  font-family: 'Alegreya', serif;
+
+}
+
+.family_bakery .family_text .btn {
+  border: none;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 15px 28px;
+  border-radius: 4px;
+  margin: 15px 8px;
+  cursor: pointer;
+  text-transform: capitalize;
+}
+
+.family_bakery .family_text .btn1 {
+  background-color: #8e7754;
+  border: 2px solid #8e7754;
+
+}
+
+.family_bakery .family_text .btn2 {
+  background-color: transparent;
+  border: 2px solid #fff;
+}
+
+
+
+/*  */
+.grand {
+  padding: 70px 0;
+  background-color: #f2f2f2;
+}
+
+.grand .cookies {
+  width: 33.33%;
+  float: left;
+  text-align: center;
+  padding: 15px;
+  font-family: "Cairo";
+ background-color: #ddd;
+  
+  
+  
+}
+
+.grand .cookies h4{
+  margin: 15px 0;
+  font-size: 22px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.grand .cookies p{
+  line-height: 1.5;
+  font-size: 17px;
+}
+.grand .card i{
+  font-size: 60px;
+  padding:20px;
+  color: rgb(44, 43, 43);
+
+}
+.grand .card{
+  padding: 30px;
+}
+.grand .card h4{
+  font-size:25px;
+}
+.grand .card p{
+  opacity: 0.8;
+
+}
+
+
+
+.test {
+  width: 200px;
+  height: 100px;
+  background-color: #09c;
+  padding: 15px;
+  
+  /* display: none;  
+  /* visibility: hidden; */
+  /* opacity: .5;   */
+  /* overflow: auto  ; */
+}
+.test h4{
+  margin: 15px 0;
+}
+
+.text span i {
+  font-size: 35px;
+  color: #000;
+  background-color: #09c;
+  padding: 20px;
+}
